@@ -6,4 +6,8 @@ class ApplicationController < ActionController::Base
   def hello_world
     render text: "Hello World from Ruby on Rails\n"
   end
+
+  def goodbye
+    render text: "goodbye, world!"
+  end
 end
